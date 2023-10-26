@@ -23,32 +23,28 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <style>
+  body,
+  html {
+    height: 100%;
+  }
+
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content {
+    flex-grow: 1;
+  }
+
   .footer-container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #e6e6e6; /* Choose your desired background color */
-    color: black; /* Text color */
     text-align: center;
     padding: 20px;
-}
-
-.social-icons-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-icons-container a {
-    margin: 0 10px;
-}
-
-/* Additional CSS for styling and centering the icons */
-.social-icons-container i {
-    font-size: 24px; /* Adjust the icon size as needed */
-}
+    background-color: #e6e6e6;
+    color: black;
+  }
 </style>
-
 <body>
   <!-- Menu Overlay -->
   <div class="overlay overlay-slide-left" id="overlay">
@@ -158,19 +154,41 @@
                 </div>
                 <div class="col-md-8">
                   <h1 class="h2">Kirsten Groenewald</h1>
-                  <p>With two full-time artists as my parents, I've been immersed in the world of design and art since childhood. I
-                    pursued art throughout my school years and now, as a hobby, I express myself through painting and drawing, primarily
-                    using acrylics.</p>
+                 <p> With a rich artistic heritage, my journey into the world of design and art began at an early age, courtesy of my
+                  talented artist parents. Art was a constant companion throughout my school years, and it continues to be an integral
+                  part of my life. As a hobbyist, I find my creative outlet through painting and drawing, with a primary focus on the
+                  expressive use of acrylics. This lifelong passion for artistic expression has paved the way for my creative endeavors.</p>
                   
-                  <p>Over the course of 12 years of running my own business, I channeled my creativity as a valuable outlet. I handled
-                    website updates, photography, and the creation of social media content. I even designed my own advertisements using
-                    Canva.</p>
+                 <p> Over the course of 12 years, I embarked on an entrepreneurial adventure, running my own business. This venture allowed
+                  me to channel my creativity into practical, real-world applications. I eagerly took on responsibilities, from managing
+                  website updates to photography and creating engaging social media content. Notably, I even designed my own
+                  advertisements, using tools like Canva. These experiences not only fueled my creativity but also honed my business
+                  acumen.</p>
                   
-                  <p>More recently, I've delved into the world of Figma and have fallen in love with its versatility. I've discovered that
-                    my passion for creativity drives me to take on new challenges and projects, as I've been doing over the past few
-                    months. Additionally, I'm currently mastering CSS and HTML, and I'm steadily gaining proficiency in JavaScript.</p>
-
-
+                 <p> More recently, I've explored the realm of Figma, a platform that has captivated me with its boundless creative
+                  possibilities. I've come to appreciate the versatility it offers and have been deeply immersed in it for the past few
+                  months. It was during this period that I realized my unyielding passion for creativity is a driving force, compelling
+                  me to embrace fresh challenges and embark on new projects.</p>
+                  
+                 <p>In addition to my design pursuits, I'm on a journey to master CSS and HTML, and I'm steadily gaining proficiency in
+                  JavaScript. These web development skills are adding layers to my creative toolkit and enabling me to bring my visions to
+                  life in the digital realm.</p>
+                  
+                  <p>Growing up, I was often told that I possessed the unique ability to "sell ice to Eskimos." This knack for sales, whether
+                  it be a delectable treat like millionaire shortbread, my business services, or even our family home, stems from my
+                  entrepreneurial spirit. I'm relentless in the pursuit of my goals, and if I believe in something, I won't rest until
+                  I've achieved it. This tenacity has guided me through various ventures, from selling products to offering services. My
+                  drive knows no bounds.</p>
+                 <p>  Outside of my professional pursuits, I find immense joy in staying active and maintaining a deep appreciation for all
+                  things fitness-related. Whether it's cycling, running, or engaging in a good read, my free time is filled with
+                  activities that invigorate both my body and mind. Learning new things is a passion, and there's nothing like a
+                  satisfying series binge to unwind. But above all, I hold a deep appreciation for the value of friendship in life.</p>
+                  
+                 <p> In a nutshell, I'm an individual driven by a profound love for creativity, a passion for fitness, and the enduring bonds
+                  of friendship.</p>
+                  <p> My life is an exciting canvas, with each day offering new opportunities to explore, create, and connect
+                  with the world around me.</p>
+                 
        <div class="col-lg-12 d-flex align-items-stretch">
   <div class="info">
     <div class="address">
@@ -191,16 +209,17 @@
 
 
     
-     <footer class="footer-container">
-        <p><small class="pull-center">© Kirsten Groenewald's Portfolio | 2023</small></p>
-        <div class="social-icons-container">
-            <a href="https://www.facebook.com/KGGroenieDesigns" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/khengineeringfitness/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/kirsten-groenewald-7b78ab21/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://wa.me/27842514572" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://youtube.com/@khfitness101?si=ewyOgG7610wMOQUJ" target="_blank"><i class="fab fa-youtube"></i></a>
-        </div>
-    </footer>
+  <footer class="footer-container">
+    <p><small class="pull-center">© Kirsten Groenewald's Portfolio | 2023</small></p>
+    <div class="social-icons-container">
+      <a href="https://www.facebook.com/KGGroenieDesigns" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/khengineeringfitness/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/kirsten-groenewald-7b78ab21/" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="https://wa.me/27842514572" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://youtube.com/@khfitness101?si=ewyOgG7610wMOQUJ" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
 
 
 
